@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+	<title>Movie Script</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/eg-icon.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/jquery.tocify.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.tocify.min.js"></script>
+</head>
+<body>
+<!-- Site Header -->
+<header>
+	<div class="container">
+		<!-- Site Logo -->
+		<a href="index.html" class="site-logo hidden-xs hidden-sm">
+			<img class="logo-dis" src="img/Laravel.png">
+			<img class="logo-dis-w" src="img/Laravel-w.png">
+		</a>
+		<!-- Site Logo -->
+		<!-- Site Login -->
+		<div class="pull-right auth">
+			<a href="javascript:void(0)"><img class="avatar img-responsive" src="img/site-user-icon-bg.png"></a>
+			<a class="login hidden-xs hidden-sm" href="javascript:void(0)">Đăng nhập</a>
+			<span class="green-separator hidden-xs hidden-sm"></span>
+			<a class="register hidden-xs hidden-sm" href="javascript:void(0)">Tạo tài khoản</a>
+		</div>
+        <div class="head-support pull-right">
+            <a class="btn btn-head-support" href="#"><i class="mdi mdi-fountain-pen-tip btn-icon"></i> <span>Đăng bài</span></a>
+        </div>
+		<!-- End Site Login -->
+        <div class="input-search-wrapper pull-right hidden-xs hidden-sm">
+            <form action="#" method="GET">
+                <i class="search-icon mdi mdi-magnify"></i>
+                <input type="text" name="key" class="search-box" placeholder="Tìm kiếm bài viết">
+            </form>
+        </div>
+
+		<!-- Site Navigation Desktop -->
+		<div class="pull-right navdes hidden">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+                    <a class="navdes-item dropdown-toggle" type="button">Bóng đá <i class="mdi mdi-menu-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <div class="container">
+                            <div class="head-menu-wrapper ">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="licama-headNav">
+                                            <ul class="licama-content">
+                                                <li>
+                                                    <a href="" title="">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">Lịch thi đấu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">World Cup 2018</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">Kết quả thi đấu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">Giải đấu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">Đội bóng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">Chuyển nhượng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="" title="">Cầu thủ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="col-wrapper container-fluid">
+                                            <div class="navcate-content">
+                                                <div class="navcate-wrapper container-fluid">
+                                                    <div class="item-group">
+                                                        <h5 class="navcate-title"><a href="" title="">Top các giải đấu</a></h5>
+                                                        <ul class="ulreset single-group">
+                                                            <li>
+                                                                <a class="football-team" href="#">
+                                                                    <span class="team-logo flag-icon flag-icon-epl"></span>
+                                                                    <span class="team-name">Ngoại hạng Anh</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="football-team" href="#">
+                                                                    <span class="team-logo flag-icon flag-icon-laliga"></span>
+                                                                    <span class="team-name">La Liga</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="football-team" href="#">
+                                                                    <span class="team-logo flag-icon flag-icon-champions-league"></span>
+                                                                    <span class="team-name">UEFA Champions League</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="football-team" href="#">
+                                                                    <span class="team-logo flag-icon flag-icon-europa-league"></span>
+                                                                    <span class="team-name">UEFA Europa League</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="football-team" href="#">
+                                                                    <span class="team-logo flag-icon flag-icon-world-cup"></span>
+                                                                    <span class="team-name">FIFA World Cup</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item-group item-group-lg" style="width: 75%;">
+                                                        <h5 class="navcate-title"><a href="" title="">Top các đội bóng</a></h5>
+                                                        <div class="navclub-list">
+                                                            <ul class="ulreset single-group">
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-ars"></span>
+                                                                        <span class="team-name">Arsenal</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-che"></span>
+                                                                        <span class="team-name">Chelsea</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-liv"></span>
+                                                                        <span class="team-name">Liverpool</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-mnc"></span>
+                                                                        <span class="team-name">Manchester City</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-man"></span>
+                                                                        <span class="team-name">Manchester United</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="ulreset single-group">
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-tot"></span>
+                                                                        <span class="team-name">Tottenham Hotspur</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-bar"></span>
+                                                                        <span class="team-name">Barcelona</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-mad"></span>
+                                                                        <span class="team-name">Real Madrid</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-atm"></span>
+                                                                        <span class="team-name">Atletico Madrid</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-bmu"></span>
+                                                                        <span class="team-name">Bayern Munich</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="ulreset single-group">
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-bvb"></span>
+                                                                        <span class="team-name">Borussia Dortmund</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-juv"></span>
+                                                                        <span class="team-name">Juventus</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="football-team" href="#">
+                                                                        <span class="team-logo flag-icon flag-icon-psg"></span>
+                                                                        <span class="team-name">Paris Saint-Germain</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+				<li>
+					<a href="#" class="navdes-item">Phim ảnh</a>
+				</li>
+				<li>
+					<a href="movie-script.html" class="navdes-item">Truyền hình</a>
+				</li>
+                <li>
+                    <a href="movie-script.html" class="navdes-item">Lịch ngày</a>
+                </li>
+                <li>
+                    <a href="movie-script.html" class="navdes-item">Lịch sự kiện</a>
+                </li>
+                <li>
+                    <a href="movie-script.html" class="navdes-item">Lịch tàu xe</a>
+                </li>
+			</ul>
+		</div>
+		<!-- End Site Navigation Desktop -->
+
+		<!-- Site Navigation Mobile -->
+		<nav>
+			<!-- Menu Toggle -->
+			<!-- Toggles menu on small screens -->
+			<a href="javascript:void(0)" class="btn btn-default site-menu-toggle visible-xs visible-sm">
+				<i class="fa fa-bars"></i>
+			</a>
+			<!-- END Menu Toggle -->
+
+			<!-- Main Menu -->
+			<ul class="site-nav">
+				<!-- Toggles menu on small screens -->
+				<li class="visible-xs visible-sm">
+					<a href="javascript:void(0)" class="site-menu-toggle text-center">
+						<i class="fa fa-times"></i>
+					</a>
+				</li>
+				<!-- END Menu Toggle -->
+				<li>
+					<form method="get" action="http://ngoaingu.net/tim-kiem">
+						<input class="input-search" type="text" name="k" placeholder="Tìm kiếm">
+						<button class="btn btn-search-mb" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</li>
+				<li>
+					<a href="index.html">Trang Chủ</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Tutorials</a>
+					<ul>
+						<li>
+							<a href="listen-category2.html" class="active">Html / Css</a>
+						</li>
+						<li>
+							<a href="article2.html">Bootstrap</a>
+						</li>
+						<li>
+							<a href="index_parallax.html">Javascript</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Học PHP</a>
+					<ul>
+						<li>
+							<a href="blog.html">PHP Cơ Bản</a>
+						</li>
+						<li>
+							<a href="blog_post.html">Codeigniter Framework</a>
+						</li>
+						<li>
+							<a href="portfolio_4.html">Laravel Framework</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Mobile App</a>
+					<ul>
+						<li>
+							<a href="ecom_home.html">Adroid</a>
+						</li>
+						<li>
+							<a href="ecom_search_results.html">IOS</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<!-- END Main Menu -->
+		</nav>
+		<!-- END Site Navigation Mobile -->
+
+		<!-- Site Logo -->
+		<div class="logo-mobile visible-xs visible-sm">
+			<div class="container">
+				<a href="index.html" class="site-logo">
+					<img src="img/hoclaptrinh.png">
+				</a>
+			</div>
+		</div>
+		<!-- Site Logo -->
+	</div>
+</header>
+
+
+<script>
+    $('.dropdown').hover(
+        function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+        },
+        function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+        }
+    );
+
+    $('.dropdown-menu').hover(
+        function() {
+            $(this).stop(true, true);
+        },
+        function() {
+            $(this).stop(true, true).delay(200).fadeOut();
+        }
+    );
+
+    $('.nav-category-head-scoll').hover(
+        function() {
+            $('.nav-category-head-scoll-body').stop(true, true).delay(200).fadeIn();
+        },
+        function() {
+            $('.nav-category-head-scoll-body').stop(true, true).delay(200).fadeOut();
+        }
+    );
+
+    $('.nav-category-head-scoll-body').hover(
+        function() {
+            $(this).stop(true, true);
+        },
+        function() {
+            $(this).stop(true, true).delay(200).fadeOut();
+        }
+    );
+</script>
+
+<!-- END Site Header -->
+
+<nav class="nav-secondary">
+    <nav class="nav-secondary-wrapper">
+        <div class="container">
+            <ul class="ulreset sen-tabMenu ulseconnav">
+                <li><a href="" title="">Home</a></li>
+                <li><a href="" title="">Thủ thuật</a></li>
+                <li class="active"><a href="" title="">Công nghệ</a></li>
+                <li><a href="" title="">App – Game</a></li>
+                <li><a href="" title="">Dịch vụ Mobile</a></li>
+                <li><a href="" title="">Hỏi đáp</a></li>
+                <li><a href="" title="">Giới thiệu</a></li>
+            </ul>
+        </div>
+    </nav>
+</nav>
+
+<!-- Start Slider -->
+<!-- <div class="homepage-slider main-wrapper feed-wrapper d-flex flex-column justify-content-center">
+    <div class="d-flex flex-wrap flex-md-row align-items-center justify-content-center intro-card">
+        <div class="intro-data">
+            <h1>Chia sẻ cách làm bất cứ điều gì. Hãy tham gia với chúng tôi.</h1>
+            <p>Chia sẻ những điều hữu ích với cộng đồng và kiếm tiền từ đó</p>
+            <div class="buttons-wrapper">
+                <button class="btn btn-lg home-get-started">Viết Bài</button>
+            </div>
+        </div>
+        <div class="feat-img"><img src="https://hashnode.imgix.net/res/hashnode/image/upload/v1567094525427/aZRCAY6K2.png?auto=compress"></div>
+    </div>
+</div> -->
+<!-- End Slider -->
+<div class="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-9 col-md-9 mainColLeft">
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 hidden-xs topColLeft">
+                        <div class="widget-trend-post">
+                            <div class="widget-body">
+                                <h2 class="section-heading-style home" style="font-size: 18px;">Bài viết đọc nhiều</h2>
+                                <ul class="rp-list" style="list-style: none;padding-left: 0px;">
+                                    <li>
+                                        <a href="#" title="">Hủy Giải vô địch Hà Lan: Sinh mạng quan trọng hơn cuộc chơi</a>     
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Phe Cộng hòa cân nhắc phế truất ông Trump sau bạo loạn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                     <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-9 topColRight">
+                        <div class="post-item first-post">
+                            <div class="postItem-img">
+                                <a href="" title="">
+                                    <img class="img-responsive lazyload" data-src="https://media.sportmoz.com/articles/al-nassr-offer-to-make-mesut-ozil-new-prince-of-saudi-arabia-2466-thumb.jpg?change=5f4e111f07519" alt="">
+                                </a>
+                            </div>
+                            <div class="postItem-info">
+                                <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                <p class="postItem-text">
+                                    <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác. Vậy tác hại của duỗi tóc là gì mà bạn nên cẩn trọng. Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row list_top_news">
+                            <div class="col-xs-6 col-md-4">
+                                <div class="post-item">
+                                    <div class="postItem-img">
+                                        <a href="" title="">
+                                            <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_wpeczyr/2021_01_04/manchester_united_bruno_fernandes.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="postItem-info">
+                                        <a href="#" class="postItem-title">Sự đối đầu về diễn xuất của Thu Hà và Vân Dung trên phim giờ vàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <div class="post-item">
+                                    <div class="postItem-img">
+                                        <a href="" title="">
+                                            <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/ihvunvj/2021_01_06/avaleenguyen_1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="postItem-info">
+                                        <a href="#" class="postItem-title">Người trả lời đúng 14 câu ở Ai là triệu phú trước Trần Đặng Đăng Khoa</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <div class="post-item">
+                                    <div class="postItem-img">
+                                        <a href="" title="">
+                                            <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/unvjuas/2021_01_05/b802424e7bedc5ac7c8c95cc9ef38cc0_tile.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="postItem-info">
+                                        <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <div class="post-item">
+                                    <div class="postItem-img">
+                                        <a href="" title="">
+                                            <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/sgorvz/2021_01_05/thailand.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="postItem-info">
+                                        <a href="#" class="postItem-title">9 thực phẩm giúp giải rượu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <div class="post-item">
+                                    <div class="postItem-img">
+                                        <a href="" title="">
+                                            <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/bzcwvobl/2021_01_05/Man_1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="postItem-info">
+                                        <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <div class="post-item">
+                                    <div class="postItem-img">
+                                        <a href="" title="">
+                                            <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_esfjaex/2021_01_04/125515277_196253741951258_2839940818650897434_n_1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="postItem-info">
+                                        <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 visible-xs"><span class="border_bottom_box"></span></div>
+                    <div class="col-xs-6 col-md-3 visible-xs" style="padding-right: 5px;">
+                        <div class="widget-trend-post">
+                            <div class="widget-body">
+                                <h2 class="section-heading-style home" style="font-size: 16px;">Bài viết đọc nhiều</h2>
+                                <ul class="rp-list" style="list-style: none;padding-left: 0px;">
+                                    <li>
+                                        <a href="#" title="">Hủy Giải vô địch Hà Lan: Sinh mạng quan trọng hơn cuộc chơi</a>     
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Phe Cộng hòa cân nhắc phế truất ông Trump sau bạo loạn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                     <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3 visible-xs" style="padding-left: 5px;">
+                        <div class="widget-trend-post">
+                            <div class="widget-body">
+                                <h2 class="section-heading-style home" style="font-size: 16px;">Bài viết cũ mà hay</h2>
+                                <ul class="rp-list" style="list-style: none;padding-left: 0px;">
+                                    <li>
+                                        <a href="#" title="">Hủy Giải vô địch Hà Lan: Sinh mạng quan trọng hơn cuộc chơi</a>     
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Phe Cộng hòa cân nhắc phế truất ông Trump sau bạo loạn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                     <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12"><span class="border_bottom_box mgt20"></span></div>
+                </div>
+                <div class="block-old">
+                    <h2 class="section-heading-style home"><a href="" title="">Tip Thủ Thuật</a></h2>
+                    <div class="row home_block_news">
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="post-item first-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://media.sportmoz.com/articles/al-nassr-offer-to-make-mesut-ozil-new-prince-of-saudi-arabia-2466-thumb.jpg?change=5f4e111f07519" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác. Vậy tác hại của duỗi tóc là gì mà bạn nên cẩn trọng. Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row list_top_news">
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_wpeczyr/2021_01_04/manchester_united_bruno_fernandes.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Xô đổ bom tấn Thế Giới Hôn Nhân, tập cuối Penthouse cán mốc rating cao ngút ngàn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/ihvunvj/2021_01_06/avaleenguyen_1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Người trả lời đúng 14 câu ở Ai là triệu phú trước Trần Đặng Đăng Khoa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/unvjuas/2021_01_05/b802424e7bedc5ac7c8c95cc9ef38cc0_tile.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/sgorvz/2021_01_05/thailand.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">9 thực phẩm giúp giải rượu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 home_block_news_lf">
+                            <div class="post-item first-post vertical-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://kenh14cdn.com/thumb_w/250/203336854389633024/2021/1/6/photo1609867138356-1609867138641795732125.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="listNews">
+                                <ul class="ulreset">
+                                    <li>
+                                        <a href="#">Mourinho: 'Son thật đặc biệt'</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc điểm của những đứa trẻ dễ thành công</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc sản mì lạnh trộn thịt ba chỉ của Hàn Quốc</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><a href="#" class="abutton more">Xem thêm</a></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12"><span class="border_bottom_box"></span></div>
+                    </div>
+                </div>
+                <div class="block-old">
+                    <h2 class="section-heading-style home"><a href="" title="">Tip Công Nghệ</a></h2>
+                    <div class="row home_block_news">
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="post-item first-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://media.sportmoz.com/articles/al-nassr-offer-to-make-mesut-ozil-new-prince-of-saudi-arabia-2466-thumb.jpg?change=5f4e111f07519" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác. Vậy tác hại của duỗi tóc là gì mà bạn nên cẩn trọng. Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row list_top_news">
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_wpeczyr/2021_01_04/manchester_united_bruno_fernandes.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Xô đổ bom tấn Thế Giới Hôn Nhân, tập cuối Penthouse cán mốc rating cao ngút ngàn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/ihvunvj/2021_01_06/avaleenguyen_1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Người trả lời đúng 14 câu ở Ai là triệu phú trước Trần Đặng Đăng Khoa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/unvjuas/2021_01_05/b802424e7bedc5ac7c8c95cc9ef38cc0_tile.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/sgorvz/2021_01_05/thailand.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">9 thực phẩm giúp giải rượu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 home_block_news_lf">
+                            <div class="post-item first-post vertical-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://kenh14cdn.com/thumb_w/250/203336854389633024/2021/1/6/photo1609867138356-1609867138641795732125.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="listNews">
+                                <ul class="ulreset">
+                                    <li>
+                                        <a href="#">Mourinho: 'Son thật đặc biệt'</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc điểm của những đứa trẻ dễ thành công</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc sản mì lạnh trộn thịt ba chỉ của Hàn Quốc</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><a href="#" class="abutton more">Xem thêm</a></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12"><span class="border_bottom_box"></span></div>
+                    </div>
+                </div>
+                <div class="block-old">
+                    <h2 class="section-heading-style home"><a href="" tit>Tip App Game</a></h2>
+                    <div class="row home_block_news">
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="post-item first-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://media.sportmoz.com/articles/al-nassr-offer-to-make-mesut-ozil-new-prince-of-saudi-arabia-2466-thumb.jpg?change=5f4e111f07519" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác. Vậy tác hại của duỗi tóc là gì mà bạn nên cẩn trọng. Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row list_top_news">
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_wpeczyr/2021_01_04/manchester_united_bruno_fernandes.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Xô đổ bom tấn Thế Giới Hôn Nhân, tập cuối Penthouse cán mốc rating cao ngút ngàn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/ihvunvj/2021_01_06/avaleenguyen_1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Người trả lời đúng 14 câu ở Ai là triệu phú trước Trần Đặng Đăng Khoa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/unvjuas/2021_01_05/b802424e7bedc5ac7c8c95cc9ef38cc0_tile.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/sgorvz/2021_01_05/thailand.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">9 thực phẩm giúp giải rượu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 home_block_news_lf">
+                            <div class="post-item first-post vertical-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://kenh14cdn.com/thumb_w/250/203336854389633024/2021/1/6/photo1609867138356-1609867138641795732125.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="listNews">
+                                <ul class="ulreset">
+                                    <li>
+                                        <a href="#">Mourinho: 'Son thật đặc biệt'</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc điểm của những đứa trẻ dễ thành công</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc sản mì lạnh trộn thịt ba chỉ của Hàn Quốc</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><a href="#" class="abutton more">Xem thêm</a></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12"><span class="border_bottom_box"></span></div>
+                    </div>
+                </div>
+                <div class="block-old">
+                    <h2 class="section-heading-style home"><a href="" title="">Dịch vụ Mobile</a></h2>
+                    <div class="row home_block_news">
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="post-item first-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://media.sportmoz.com/articles/al-nassr-offer-to-make-mesut-ozil-new-prince-of-saudi-arabia-2466-thumb.jpg?change=5f4e111f07519" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác. Vậy tác hại của duỗi tóc là gì mà bạn nên cẩn trọng. Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row list_top_news">
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_wpeczyr/2021_01_04/manchester_united_bruno_fernandes.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Xô đổ bom tấn Thế Giới Hôn Nhân, tập cuối Penthouse cán mốc rating cao ngút ngàn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/ihvunvj/2021_01_06/avaleenguyen_1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Người trả lời đúng 14 câu ở Ai là triệu phú trước Trần Đặng Đăng Khoa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/unvjuas/2021_01_05/b802424e7bedc5ac7c8c95cc9ef38cc0_tile.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/sgorvz/2021_01_05/thailand.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">9 thực phẩm giúp giải rượu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 home_block_news_lf">
+                            <div class="post-item first-post vertical-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://kenh14cdn.com/thumb_w/250/203336854389633024/2021/1/6/photo1609867138356-1609867138641795732125.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="listNews">
+                                <ul class="ulreset">
+                                    <li>
+                                        <a href="#">Mourinho: 'Son thật đặc biệt'</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc điểm của những đứa trẻ dễ thành công</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc sản mì lạnh trộn thịt ba chỉ của Hàn Quốc</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><a href="#" class="abutton more">Xem thêm</a></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12"><span class="border_bottom_box"></span></div>
+                    </div>
+                </div>
+                <div class="block-old">
+                    <h2 class="section-heading-style home"><a href="" title="">Tip Hỏi Đáp</a></h2>
+                    <div class="row home_block_news">
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="post-item first-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://media.sportmoz.com/articles/al-nassr-offer-to-make-mesut-ozil-new-prince-of-saudi-arabia-2466-thumb.jpg?change=5f4e111f07519" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác. Vậy tác hại của duỗi tóc là gì mà bạn nên cẩn trọng. Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row list_top_news">
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/neg_wpeczyr/2021_01_04/manchester_united_bruno_fernandes.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Xô đổ bom tấn Thế Giới Hôn Nhân, tập cuối Penthouse cán mốc rating cao ngút ngàn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/ihvunvj/2021_01_06/avaleenguyen_1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Người trả lời đúng 14 câu ở Ai là triệu phú trước Trần Đặng Đăng Khoa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/unvjuas/2021_01_05/b802424e7bedc5ac7c8c95cc9ef38cc0_tile.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="post-item">
+                                        <div class="postItem-img">
+                                            <a href="" title="">
+                                                <img class="img-responsive lazyload" data-src="https://znews-photo.zadn.vn/w360/Uploaded/sgorvz/2021_01_05/thailand.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="postItem-info">
+                                            <a href="#" class="postItem-title">9 thực phẩm giúp giải rượu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 home_block_news_lf">
+                            <div class="post-item first-post vertical-post">
+                                <div class="postItem-img">
+                                    <a href="" title="">
+                                        <img class="img-responsive lazyload" data-src="https://kenh14cdn.com/thumb_w/250/203336854389633024/2021/1/6/photo1609867138356-1609867138641795732125.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="postItem-info">
+                                    <a href="#" class="postItem-title">Cách gói bánh trưng vuông đẹp cho ngày tết thêm ấm cúng</a>
+                                    <p class="postItem-text">
+                                        <a href="#">Duỗi tóc có thể gây hại cho mái tóc và làm gương mặt thiếu sức sống với mái tóc xơ xác.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="listNews">
+                                <ul class="ulreset">
+                                    <li>
+                                        <a href="#">Mourinho: 'Son thật đặc biệt'</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc điểm của những đứa trẻ dễ thành công</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Đặc sản mì lạnh trộn thịt ba chỉ của Hàn Quốc</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#">Những bí mật trong bóng tối của hồ Volta, Ghana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nạn đổ lỗi ngược trong sự việc người đẹp Philippines tử vong</a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><a href="#" class="abutton more">Xem thêm</a></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12"><span class="border_bottom_box"></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 mainColRight">
+                <div class="sidebar1">
+                    <div class="wrapper-sidebar">
+                        <div class="widget widget-tutorial-nav">
+                            <div class="widget-body">
+                                <p>
+                                    <img class="img-responsive lazyload" data-src="https://phanmem.com.vn/client/img/ads1.jpg" alt="">
+                                </p>
+                                <p>
+                                    <img class="img-responsive lazyload" data-src="https://cdnmedia.thethaovanhoa.vn/Upload/O5NP4aFt6GVwE7JTFAOaA/files/2019/12/chi-chi-em-em-02.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="widget widget-trend-post">
+                            <div class="widget-body">
+                                <h2 class="section-heading-style home" style="margin-top: 20px; font-size: 18px;">Bài viết cũ mà hay</h2>
+                                <ul class="rp-list" style="list-style: none;padding-left: 0px;">
+                                    <li>
+                                        <a href="#" title="">Hủy Giải vô địch Hà Lan: Sinh mạng quan trọng hơn cuộc chơi</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>     
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Phe Cộng hòa cân nhắc phế truất ông Trump sau bạo loạn</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                     <li>
+                                        <a href="#" title="">Bắt nghi phạm nổ súng vào xe của Dương Minh Tuyền</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Một loạt trợ lý Nhà Trắng cân nhắc từ chức sau vụ bạo loạn ở quốc hội</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Người biểu tình chiếm Điện Capitol giữa cuộc họp xác nhận bầu cử</a>
+                                        <p>
+                                            <i class="mdi mdi-clock"></i>
+                                            <time datetime="01 01, 2017" class="text-muted">9 tháng trước</time>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget widget-tutorial-nav">
+                            <div class="widget-body">
+                                <p>
+                                    <img class="img-responsive lazyload" data-src="https://media.thuthuat.vn/cdn/ads2.jpg" alt="">
+                                </p>
+                                <p>
+                                    <img class="img-responsive lazyload" data-src="https://cdnmedia.thethaovanhoa.vn/Upload/O5NP4aFt6GVwE7JTFAOaA/files/2019/12/chi-chi-em-em-02.jpg" alt="">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-categories">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="foca-block about">
+                            <h2 class="focabl-title">Thông tin về chúng tôi</h2>
+                            <div class="focabl-content">
+                                <div class="textwidget">
+                                    <p>Tip.com.vn được thành lập từ cuối năm 2020 là một BLog tổng hợp các kiến thức hay về game, công nghệ hỏi đáp thủ thuật mới nhất hot nhất trong năm 2020 luôn được cập nhật mỗi ngày mang nhiều kiến thức bổ ích cho các bạn.</p>
+                                    <p>Blog thông tin về công nghệ, hỏi đáp, thủ thuật máy tính thủ thuật mobile mới nhất hay nhất luôn được cập nhật tại TIP.COM.VN</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foca-block">
+                            <h2 class="focabl-title">Danh mục Tip</h2>
+                            <ul class="focabl-content">
+                                <li>
+                                    <a href="" title="">Thủ thuật</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Công nghệ</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">App – Game</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Dịch vụ Mobile</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Hỏi đáp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="foca-block">
+                            <h2 class="focabl-title">Mạng xã hội</h2>
+                            <ul class="focabl-content">
+                                <li>
+                                    <a href="" title="">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Youtube</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="foca-block">
+                            <h2 class="focabl-title">Tip.com.vn</h2>
+                            <ul class="focabl-content">
+                                <li>
+                                    <a href="" title="">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Liên hệ</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Điều khoản</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Bảo mật</a>
+                                </li>
+                                <li>
+                                    <a href="" title="">Hướng dẫn</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="foca-block adsfoot">
+                            <div class="focabl-content">
+                                <img class="img-responsive lazyload" data-src="https://phanmem.com.vn/client/img/ads1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="footer-bottom-left">Copyright © Tip.com.vn. Thiết kế web bởi <font color="ff0046">Static Team</font></div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="footer-bottom-right">
+                    <a href="#" target="_blank">Quảng cáo với chúng tôi</a>
+                    <span class="footer-bottom-right-splitter"></span>
+                    <a href="#" target="_blank">Phản hồi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/lazysizes.min.js"></script>
+</body>
+</html>
